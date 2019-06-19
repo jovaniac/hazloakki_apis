@@ -1,0 +1,151 @@
+# Example YAML to get you started quickly.
+# Be aware that YAML has indentation based coping.
+# Code completion support is available so start typing for available options.
+swagger: "2.0"
+
+# This is your document metadata
+info:
+  version: "0.0.1"
+  title: API de Acciones, Verbos para hazloakki.com
+  description: |
+   API para poder obtener las diferentes acciones "verbos" 
+   cosa que pueden hacer los usuarios de hazloakki
+
+host:
+  wwww.hazloakki.com
+schemes:
+  - https
+
+basePath: /acciones/v1
+
+securityDefinitions:
+  Bearer:
+    description: >
+      Para acceder a la API se debe pasar un token válido en cada peticion.
+      Se debe utilizar en el encabezado 'Authorization' :
+        Bearer: 2xgsLJmBAtTNIU8ngee8XbmDvaNGsx
+    type: apiKey
+    name: Authorization
+    in: header
+
+paths:
+ /: 
+  get:
+    summary: todas las acciones
+    description: consulta de todas las accions para hazloakki
+    responses:
+        200:
+          description: Consulta exitosa de un cliente
+          type: array
+          items:
+           $ref: "#/definitions/responseAccionesGET"
+        404:
+          description: No existe la información
+          schema:
+           $ref: '#/definitions/ErrorResponse404'
+        400:
+          description: Entrada incorrecta
+          schema:
+           $ref: '#/definitions/ErrorResponse400'
+        500:
+          description: Error inesperado
+          schema:
+           $ref: '#/definitions/ErrorResponse500'  
+
+definitions:
+  responseAccionesGET:
+    type: object
+    properties:
+      idAccion:
+        type: string
+        description: id accion del verbo
+        example: "1"
+      nombre:
+        type: string
+        description: nombre de la accion
+        example: "Comer"
+      descripcion:
+        type: string
+        description: Lugares para poder comer
+        example: "Fonda Chantilli"
+      estatus:
+        type: boolean
+        description: estatus actual del verbo
+        example: true
+
+  ErrorResponse400:
+    type: object
+    properties:
+      codigo:
+        type: string
+        description: Código del error
+        example: "400.acciones.1000"
+      mensaje:
+        type: string
+        description: Descripción del error
+        example: "Los datos de la accion son invalidos"
+      informacion:
+        type: string
+        description: Informacion de como corregir el error o validacion
+        example: "Debes introducir correctamente los datos"
+      tracking: 
+        type: string
+        description: Número de rastreo de la operación
+        example: "98755343"
+                 
+  ErrorResponse500:
+    type: object
+    properties:
+      codigo:
+        type: string
+        description: Código del error
+        example: "500.acciones.1200"
+      mensaje:
+        type: string
+        description: Descripción del error
+        example: "Error al realizar la operación."
+      informacion:
+        type: string
+        description: Informacion de como corregir el error o validacion
+        example: "Ocurrio un error inesperado, intentar nuevamente"
+      tracking: 
+        type: string
+        description: Número de rastreo de la operación
+        example: "22920181120162829642"
+  
+            
+  ErrorResponse404:
+    type: object
+    properties:
+      codigo:
+        type: string
+        description: Código del error
+        example: "404.acciones.1100"
+      mensaje:
+        type: string
+        description: Descripción del error
+        example: "No existe la información solicitada."
+      id:
+        type: string
+        description: Id de la entidad a buscar
+        example: "143"
+      descripcion:
+        type: array
+        items:
+          type: string
+          example: ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
