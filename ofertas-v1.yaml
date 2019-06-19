@@ -33,10 +33,10 @@ security:
 paths:
   /negocios/{idNegocio}:     
     get:
-      summary: consulta de las ofertas
-      description: consulta de las ofertas
+      summary: consulta de las ofertas del negocio seleccionado
+      description: ofetas de negocios
       tags:
-        - Operaciones de Credito
+        - Operaciones de Ofertas
       parameters:
         - in: path
           name: idNegocio
@@ -46,7 +46,7 @@ paths:
         200:
           description: Ok
           schema:
-            $ref: "#/definitions/creditosProceso"
+            $ref: "#/definitions/ofertasGET"
         400:
           description: Entrada incorrecta
           schema:
@@ -303,51 +303,30 @@ definitions:
         description: Numero asignado para cada sucursal del BANCO PODER
         example: "50392"
   
-  creditosProceso:
+  ofertasGET:
     type: object
     properties:
-      idCredito:
+      tiempoPublicacion:
         type: string
         description: Identificador del Credito solicitado
         example: "1100305940"
-      fecha: 
+      titulo: 
          type: string
          description: Fecha de apertura del credito
          example: "2019-02-17"
-      pais:
+      precio:
         type: string
         description: Pais donde proviene la transaccion del banco
         example: "Mexico"
-      canal:
+      noMeGusta:
         type: string
         description: Canal donde proviene la solicitud, portal online  1, atm 2, sucursal 3
         example: "1"
-      sucursal:
-        type: object
-        $ref: '#/definitions/sucursal'
-      cliente:
+      calificacion:
         type: string
         description: Identificador del cliente
         example: "391849"
-      producto:
-        type: string
-        description: Identificador del producto para la apertuda del credito
-        example: "5"
-      monto: 
-        type: string 
-        description: Monto solicitado de credito MXD
-        example: "20000"
-      plazo:
-        type: string
-        description: Plazo del credito seleccionado, expresado en meses
-        example: "2"
-      referencias:
-       type: array
-       items:
-           type: object
-           example: ""
-           $ref: '#/definitions/referenciasPersonales'
-  
+     
   creditosAprobaciones:
     type: object
     properties:
