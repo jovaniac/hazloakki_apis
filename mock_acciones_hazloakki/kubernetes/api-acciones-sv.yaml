@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: api-acciones
+spec:
+  type: LoadBalancer
+  selector:
+    app: api-acciones
+  ports:
+  - protocol: TCP
+    port: 8000
+    targetPort: 8000
+
+    

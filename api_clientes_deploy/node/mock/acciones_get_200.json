@@ -1,0 +1,32 @@
+[
+  {
+    "idAccion": "1",
+    "nombre": "Comer",
+    "descripcion": "Fonda Chantilli",
+    "estatus": true
+  },
+  {
+    "idAccion": "2",
+    "nombre": "Beber",
+    "descripcion": "Bar Chantilli",
+    "estatus": true
+  },
+  {
+    "idAccion": "3",
+    "nombre": "Bailar",
+    "descripcion": "Antro Chantilli",
+    "estatus": true
+  },
+  {
+    "idAccion": "4",
+    "nombre": "Descanzar",
+    "descripcion": "Hotel Chantilli",
+    "estatus": true
+  },
+  {
+    "idAccion": "5",
+    "nombre": "Divertirse",
+    "descripcion": "Tuburio Chantilli",
+    "estatus": true
+  }
+]

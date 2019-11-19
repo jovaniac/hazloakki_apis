@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: api-negocios
+  labels:
+    app: api-negocios
+spec:
+  selector:
+    matchLabels:
+      app: api-negocios
+  template:
+    metadata:
+      labels:
+        app: api-negocios
+    spec:
+      containers:
+        - name: api-negocios
+          image: jovaniac/api-negocios:0.1
+          ports:
+            - containerPort: 8000
+              protocol: TCP

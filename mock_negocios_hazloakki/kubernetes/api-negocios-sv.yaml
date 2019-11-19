@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: api-negocios
+spec:
+  type: LoadBalancer
+  selector:
+    app: api-negocios
+  ports:
+  - protocol: TCP
+    port: 8000
+    targetPort: 8000
+
+    

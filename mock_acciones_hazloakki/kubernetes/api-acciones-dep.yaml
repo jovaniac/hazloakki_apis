@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: api-acciones
+  labels:
+    app: api-acciones
+spec:
+  selector:
+    matchLabels:
+      app: api-acciones
+  template:
+    metadata:
+      labels:
+        app: api-acciones
+    spec:
+      containers:
+        - name: api-acciones
+          image: jovaniac/api-acciones:0.5
+          ports:
+            - containerPort: 8000
+              protocol: TCP

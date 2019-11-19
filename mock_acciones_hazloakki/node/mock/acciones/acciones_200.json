@@ -1,0 +1,37 @@
+[
+  {
+    "idAccion": "1",
+    "nombre": "Comer",
+    "descripcion": "Lugares cercanos para poder comer ",
+    "estatus": true,
+    "urlImagen":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
+  },
+  {
+    "idAccion": "2",
+    "nombre": "Beber",
+    "descripcion": "Qué dices una chela, aca lo mejor",
+    "estatus": true,
+    "urlImagen":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
+  },
+  {
+    "idAccion": "3",
+    "nombre": "Bailar",
+    "descripcion": "Aburrid@, vente a bailar aqui",
+    "estatus": true,
+    "urlImagen":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
+  },
+  {
+    "idAccion": "4",
+    "nombre": "Descanzar",
+    "descripcion": "Cansado o de viaje, quedate con nosotros",
+    "estatus": true,
+    "urlImagen":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
+  },
+  {
+    "idAccion": "5",
+    "nombre": "Divertirse",
+    "descripcion": "Ven, y disfruta de todas las actividades",
+    "estatus": true,
+    "urlImagen":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
+  }
+]

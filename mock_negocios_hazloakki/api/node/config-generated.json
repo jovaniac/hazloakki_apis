@@ -1,0 +1,25 @@
+{
+    "mockDirectory": "/api/node/mock",
+    "quiet": false,
+    "port": "8000",
+    "latency": 50,
+    "logRequestHeaders": false,
+    "webServices": {
+      "acciones/v1":{
+        "latency": 10,
+        "verbs": [
+            "get"
+        ],
+        "switch": [
+            ],
+        "responses": {
+                "get": {
+                    "httpStatus": 200,
+                    "mockFile": "acciones/acciones_200.json"
+                }
+            },
+            "switchResponses": {
+            }
+      }
+    }
+}
