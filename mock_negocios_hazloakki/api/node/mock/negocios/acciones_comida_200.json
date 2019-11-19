@@ -1,0 +1,62 @@
+[
+  {
+    "idNegocio": "1",
+    "descripcion": "Carnitas Cesarini",
+    "estatus": "Activo",
+    "domicilio": "Azalea 85 colonia Huayamilpas",
+    "sitioWeb":"https://carnitascesarin.com.mx",
+    "nombreCategoria":"Restaurante",
+    "calificacion":"8",
+    "distancia":"1.5km",
+    "numeroOfertas":"3",
+    "horarioDia":"Lunes a Viernes 8am - 9pm"
+  },
+  {
+    "idNegocio": "2",
+    "descripcion": "Posoles Agustin",
+    "estatus": "Activo",
+    "domicilio": "Jumil 90 colonia Peligrosin",
+    "sitioWeb":"https://posolesagustin.com.mx",
+    "nombreCategoria":"Restaurante",
+    "calificacion":"9",
+    "distancia":"1.9km",
+    "numeroOfertas":"9",
+    "horarioDia":"Lunes a Viernes 8am - 9pm"
+  },
+  {
+    "idNegocio": "3",
+    "descripcion": "Desayunos Magui",
+    "estatus": "Activo",
+    "domicilio": "Insurgentes Sur 343, colonia la joya",
+    "sitioWeb":"https://desayunomagui.com.mx",
+    "nombreCategoria":"Desayunos",
+    "calificacion":"10",
+    "distancia":"3km",
+    "numeroOfertas":"15",
+    "horarioDia":"Lunes a Viernes 7am - 3pm"
+  },
+  {
+    "idNegocio": "4",
+    "descripcion": "Tacos los parados",
+    "estatus": "Activo",
+    "domicilio": "San fernando 45, colonia la joya",
+    "sitioWeb":"https://losparados.com.mx",
+    "nombreCategoria":"Restaurante",
+    "calificacion":"10",
+    "distancia":"5km",
+    "numeroOfertas":"25",
+    "horarioDia":"Lunes a Viernes 6pm - 2am"
+  },
+  {
+    "idNegocio": "5",
+    "descripcion": "Mariscos Petrona",
+    "estatus": "Activo",
+    "domicilio": "Acoxpa 53, Colonia Division del norte",
+    "sitioWeb":"https://marisquitospetrona.com.mx",
+    "nombreCategoria":"Marisqueria",
+    "calificacion":"9",
+    "distancia":"10km",
+    "numeroOfertas":"7",
+    "horarioDia":"Lunes a Viernes 2pm - 6pm"
+  }
+]
