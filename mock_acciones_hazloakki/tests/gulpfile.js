@@ -24,8 +24,7 @@ gulp.task('cucumber-test', () => {
 
 gulp.task('apimocker', () => {
     return mocker.start({
-      config: '../node/config-generated.json',
-      mockDirectory: '../node/mock'
+        config: '../api/node/config-generated.json'
     });
 });
 

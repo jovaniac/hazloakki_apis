@@ -1,5 +1,5 @@
 {
-    "mockDirectory": "/api/node/mock",
+    "mockDirectory": "../api/node/mock",
     "quiet": false,
     "port": "8000",
     "latency": 50,

@@ -1,24 +1,31 @@
 {
-    "mockDirectory": "/api/node/mock",
+    "mockDirectory": "../api/node/mock",
     "quiet": false,
     "port": "8000",
     "latency": 50,
     "logRequestHeaders": false,
     "webServices": {
-      "acciones/v1":{
+      "negocios/v1":{
         "latency": 10,
         "verbs": [
             "get"
         ],
         "switch": [
+            "idAccion"
             ],
+            
         "responses": {
-                "get": {
-                    "httpStatus": 200,
-                    "mockFile": "acciones/acciones_200.json"
-                }
+            "get": {
+                "httpStatus": 200,
+                "mockFile": "negocios/negocios_comida_200.json"
+            }
             },
             "switchResponses": {
+                "idAccion1":{"httpStatus": 200, "mockFile": "negocios/negocios_comida_200.json"},
+                "idAccion2":{"httpStatus": 200, "mockFile": "negocios/negocios_beber_200.json"},
+                "idAccion3":{"httpStatus": 200, "mockFile": "negocios/negocios_bailar_200.json"},
+                "idAccion4":{"httpStatus": 200, "mockFile": "negocios/negocios_descanzar_200.json"},
+                "idAccion5":{"httpStatus": 200, "mockFile": "negocios/negocios_diversion_200.json"}
             }
       }
     }

@@ -1,0 +1,62 @@
+[
+  {
+    "idNegocio": "1",
+    "descripcion": "Imagic Park",
+    "estatus": "Activo",
+    "domicilio": "Centro Comercial Paseo Interlomas Vialidad de la Barranca 6",
+    "sitioWeb":"https://imaginepark.com.mx",
+    "nombreCategoria":"Parque de Diversiones",
+    "calificacion":"9",
+    "distancia":"13.5km",
+    "numeroOfertas":"40",
+    "horarioDia":"Lunes a Sabado 9am - 8pm"
+  },
+  {
+    "idNegocio": "2",
+    "descripcion": "KataPlum",
+    "estatus": "Activo",
+    "domicilio": "-Parque Las Antenas Canal de Garay 3278 La Esperanza",
+    "sitioWeb":"https://Kataplum.com.mx",
+    "nombreCategoria":"Juegos infantiles",
+    "calificacion":"8.3",
+    "distancia":"4.9km",
+    "numeroOfertas":"31",
+    "horarioDia":"Lunes a Sabado 10am - 5pm"
+  },
+  {
+    "idNegocio": "3",
+    "descripcion": "Granja Las Américas",
+    "estatus": "Activo",
+    "domicilio": "Pípilas s/n Lomas de Sotelo México",
+    "sitioWeb":"https://granjalasamericas.com.mx",
+    "nombreCategoria":"Granja de Diversiones",
+    "calificacion":"8",
+    "distancia":"20km",
+    "numeroOfertas":"35",
+    "horarioDia":"Lunes a Sabado 11am - 6pm"
+  },
+  {
+    "idNegocio": "4",
+    "descripcion": "Inspark",
+    "estatus": "Activo",
+    "domicilio": "Lago Zurich 245 Ampliación Granada Ciudad de México 11529",
+    "sitioWeb":"https://inspark.com.mx",
+    "nombreCategoria":"Parqute de diversiones",
+    "calificacion":"8",
+    "distancia":"13km",
+    "numeroOfertas":"50",
+    "horarioDia":"Lunes a Sabado 8am - 8pm"
+  },
+  {
+    "idNegocio": "5",
+    "descripcion": "Lego Store Perisur",
+    "estatus": "Activo",
+    "domicilio": "Centro Comercial Perisur Periférico Sur 4690 Jardines del Pedregal México, D.F 04500",
+    "sitioWeb":"https://legostoreperisur.com.mx",
+    "nombreCategoria":"Tienda Legos",
+    "calificacion":"7",
+    "distancia":"14km",
+    "numeroOfertas":"10",
+    "horarioDia":"Lunes a Sabado 12pm - 8pm"
+  }
+]
