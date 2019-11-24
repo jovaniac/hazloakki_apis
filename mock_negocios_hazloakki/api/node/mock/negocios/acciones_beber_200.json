@@ -1,62 +1,62 @@
 [
   {
     "idNegocio": "1",
-    "descripcion": "Carnitas Cesarini",
+    "descripcion": "Bar los angeles",
     "estatus": "Activo",
     "domicilio": "Azalea 85 colonia Huayamilpas",
-    "sitioWeb":"https://carnitascesarin.com.mx",
-    "nombreCategoria":"Restaurante",
+    "sitioWeb":"https://angelesbar.com.mx",
+    "nombreCategoria":"Bar",
     "calificacion":"8",
-    "distancia":"1.5km",
-    "numeroOfertas":"3",
-    "horarioDia":"Lunes a Viernes 8am - 9pm"
+    "distancia":"3.5km",
+    "numeroOfertas":"11",
+    "horarioDia":"Lunes a Sabado 6pm - 11pm"
   },
   {
     "idNegocio": "2",
-    "descripcion": "Posoles Agustin",
+    "descripcion": "Hooters Insurgentes",
     "estatus": "Activo",
     "domicilio": "Jumil 90 colonia Peligrosin",
-    "sitioWeb":"https://posolesagustin.com.mx",
-    "nombreCategoria":"Restaurante",
-    "calificacion":"9",
-    "distancia":"1.9km",
-    "numeroOfertas":"9",
-    "horarioDia":"Lunes a Viernes 8am - 9pm"
+    "sitioWeb":"https://hooters.com.mx",
+    "nombreCategoria":"Bar & Food",
+    "calificacion":"9.5",
+    "distancia":"6.5km",
+    "numeroOfertas":"30",
+    "horarioDia":"Lunes a Domingo 6pm - 2am"
   },
   {
     "idNegocio": "3",
-    "descripcion": "Desayunos Magui",
+    "descripcion": "Cantina Oasis",
     "estatus": "Activo",
     "domicilio": "Insurgentes Sur 343, colonia la joya",
-    "sitioWeb":"https://desayunomagui.com.mx",
-    "nombreCategoria":"Desayunos",
-    "calificacion":"10",
-    "distancia":"3km",
+    "sitioWeb":"https://cantinaoasis.com.mx",
+    "nombreCategoria":"Bar",
+    "calificacion":"8.6",
+    "distancia":"5km",
     "numeroOfertas":"15",
-    "horarioDia":"Lunes a Viernes 7am - 3pm"
+    "horarioDia":"Martes a Domingo 6pm - 2am"
   },
   {
     "idNegocio": "4",
-    "descripcion": "Tacos los parados",
+    "descripcion": "Beers Factory",
     "estatus": "Activo",
     "domicilio": "San fernando 45, colonia la joya",
-    "sitioWeb":"https://losparados.com.mx",
-    "nombreCategoria":"Restaurante",
-    "calificacion":"10",
-    "distancia":"5km",
-    "numeroOfertas":"25",
-    "horarioDia":"Lunes a Viernes 6pm - 2am"
+    "sitioWeb":"https://beersfactory.com.mx",
+    "nombreCategoria":"Bar & Food",
+    "calificacion":"8",
+    "distancia":"3km",
+    "numeroOfertas":"10",
+    "horarioDia":"Lunes a Domingo 6pm - 1am"
   },
   {
     "idNegocio": "5",
-    "descripcion": "Mariscos Petrona",
+    "descripcion": "La choperia",
     "estatus": "Activo",
     "domicilio": "Acoxpa 53, Colonia Division del norte",
-    "sitioWeb":"https://marisquitospetrona.com.mx",
-    "nombreCategoria":"Marisqueria",
-    "calificacion":"9",
-    "distancia":"10km",
-    "numeroOfertas":"7",
-    "horarioDia":"Lunes a Viernes 2pm - 6pm"
+    "sitioWeb":"https://lachoperia.com.mx",
+    "nombreCategoria":"Bar",
+    "calificacion":"8",
+    "distancia":"15",
+    "numeroOfertas":"30",
+    "horarioDia":"Lunes a Domingo 2pm - 6pm"
   }
 ]
