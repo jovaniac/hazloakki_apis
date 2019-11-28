@@ -1,8 +1,9 @@
 [
   {
     "idNegocio": "1",
+    "nombre": "Bar los angeles",
     "descripcion": "Bar los angeles",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Azalea 85 colonia Huayamilpas",
     "sitioWeb":"https://angelesbar.com.mx",
     "nombreCategoria":"Bar",
@@ -13,8 +14,9 @@
   },
   {
     "idNegocio": "2",
+    "nombre": "Hooters Insurgentes",
     "descripcion": "Hooters Insurgentes",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Jumil 90 colonia Peligrosin",
     "sitioWeb":"https://hooters.com.mx",
     "nombreCategoria":"Bar & Food",
@@ -25,8 +27,9 @@
   },
   {
     "idNegocio": "3",
+    "nombre": "Cantina Oasis",
     "descripcion": "Cantina Oasis",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Insurgentes Sur 343, colonia la joya",
     "sitioWeb":"https://cantinaoasis.com.mx",
     "nombreCategoria":"Bar",
@@ -37,8 +40,9 @@
   },
   {
     "idNegocio": "4",
+    "nombre": "Beers Factory",
     "descripcion": "Beers Factory",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "San fernando 45, colonia la joya",
     "sitioWeb":"https://beersfactory.com.mx",
     "nombreCategoria":"Bar & Food",
@@ -49,8 +53,9 @@
   },
   {
     "idNegocio": "5",
+    "nombre": "La choperia",
     "descripcion": "La choperia",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Acoxpa 53, Colonia Division del norte",
     "sitioWeb":"https://lachoperia.com.mx",
     "nombreCategoria":"Bar",

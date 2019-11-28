@@ -1,8 +1,9 @@
 [
   {
     "idNegocio": "1",
+    "nombre": "Imagic Park",
     "descripcion": "Imagic Park",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Centro Comercial Paseo Interlomas Vialidad de la Barranca 6",
     "sitioWeb":"https://imaginepark.com.mx",
     "nombreCategoria":"Parque de Diversiones",
@@ -13,8 +14,9 @@
   },
   {
     "idNegocio": "2",
+    "nombre": "KataPlum",
     "descripcion": "KataPlum",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "-Parque Las Antenas Canal de Garay 3278 La Esperanza",
     "sitioWeb":"https://Kataplum.com.mx",
     "nombreCategoria":"Juegos infantiles",
@@ -25,8 +27,9 @@
   },
   {
     "idNegocio": "3",
+    "nombre": "Granja Las Américas",
     "descripcion": "Granja Las Américas",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Pípilas s/n Lomas de Sotelo México",
     "sitioWeb":"https://granjalasamericas.com.mx",
     "nombreCategoria":"Granja de Diversiones",
@@ -37,8 +40,9 @@
   },
   {
     "idNegocio": "4",
+    "nombre": "Inspark",
     "descripcion": "Inspark",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Lago Zurich 245 Ampliación Granada Ciudad de México 11529",
     "sitioWeb":"https://inspark.com.mx",
     "nombreCategoria":"Parqute de diversiones",
@@ -49,8 +53,9 @@
   },
   {
     "idNegocio": "5",
+    "nombre": "Lego Store Perisur",
     "descripcion": "Lego Store Perisur",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Centro Comercial Perisur Periférico Sur 4690 Jardines del Pedregal México, D.F 04500",
     "sitioWeb":"https://legostoreperisur.com.mx",
     "nombreCategoria":"Tienda Legos",

@@ -1,8 +1,9 @@
 [
   {
     "idNegocio": "1",
+    "nombre": "La chilanguita",
     "descripcion": "La chilanguita",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Gerrero 85 Insurgentes Norte",
     "sitioWeb":"https://La chilanguita.com.mx",
     "nombreCategoria":"Antro",
@@ -13,8 +14,9 @@
   },
   {
     "idNegocio": "2",
+    "nombre": "El Desvan",
     "descripcion": "El Desvan",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Oxaca 90 Av Revolucion Insurgentes",
     "sitioWeb":"https://eldesvan.com.mx",
     "nombreCategoria":"Antro",
@@ -25,8 +27,9 @@
   },
   {
     "idNegocio": "3",
+    "nombre": "Antromix",
     "descripcion": "Antromix",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Insurgentes Norte 100, colonia narvarte",
     "sitioWeb":"https://antromix.com.mx",
     "nombreCategoria":"Discoteca",
@@ -37,8 +40,9 @@
   },
   {
     "idNegocio": "4",
+    "nombre": "El Bull",
     "descripcion": "El Bull",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "San fernando 45, colonia la joya",
     "sitioWeb":"https://elbull.com.mx",
     "nombreCategoria":"Antro",
@@ -49,8 +53,9 @@
   },
   {
     "idNegocio": "5",
+    "nombre": "Ruta 53 Karaoke",
     "descripcion": "Ruta 53 Karaoke",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Acoxpa 53, Colonia Division del norte",
     "sitioWeb":"https://ruta53dance.com.mx",
     "nombreCategoria":"Karaoke",

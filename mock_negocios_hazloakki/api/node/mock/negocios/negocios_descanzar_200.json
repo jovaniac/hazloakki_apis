@@ -1,8 +1,9 @@
 [
   {
     "idNegocio": "1",
+    "nombre": "Villas Hotel",
     "descripcion": "Villas Hotel",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Av. Revolución 826, San Juan, 03730 ",
     "sitioWeb":"https://villashotel.com.mx",
     "nombreCategoria":"Villas",
@@ -13,8 +14,9 @@
   },
   {
     "idNegocio": "2",
+    "nombre": "Hotel y Villas Sur",
     "descripcion": "Hotel y Villas Sur",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Eje 2 Ote 249, San Francisco Culhuacan",
     "sitioWeb":"https://hotelyvillassur.com.mx",
     "nombreCategoria":"Hotel & Villas",
@@ -25,8 +27,9 @@
   },
   {
     "idNegocio": "3",
+    "nombre": "Hotel & Villas Patriotismo",
     "descripcion": "Hotel & Villas Patriotismo",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Avenida Patriotismo 53, Escandón II Secc, Miguel Hidalgo",
     "sitioWeb":"https://villaspatrismo.com.mx",
     "nombreCategoria":"Hotel & Villas",
@@ -37,8 +40,9 @@
   },
   {
     "idNegocio": "4",
+    "nombre": "Hotel Kron",
     "descripcion": "Hotel Kron",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Av. Insurgentes Sur 3796, Tlalpan Centro I, 14000",
     "sitioWeb":"https://hotelkron.com.mx",
     "nombreCategoria":"Hotel",
@@ -49,8 +53,9 @@
   },
   {
     "idNegocio": "5",
+    "nombre": "Hotel Cuore",
     "descripcion": "Hotel Cuore",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Calz. de Tlalpan 3325, Sta. Úrsula Coapa, 04650",
     "sitioWeb":"https://hotelcuore.com.mx",
     "nombreCategoria":"Hotel",

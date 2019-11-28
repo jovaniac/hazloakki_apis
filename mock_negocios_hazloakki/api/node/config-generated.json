@@ -11,7 +11,11 @@
             "get"
         ],
         "switch": [
-            "idAccion"
+            "idAccion",
+            "latitud",
+            "longitud",
+            "distancia",
+            "estatus"
             ],
             
         "responses": {
@@ -21,11 +25,11 @@
             }
             },
             "switchResponses": {
-                "idAccion1":{"httpStatus": 200, "mockFile": "negocios/negocios_comida_200.json"},
-                "idAccion2":{"httpStatus": 200, "mockFile": "negocios/negocios_beber_200.json"},
-                "idAccion3":{"httpStatus": 200, "mockFile": "negocios/negocios_bailar_200.json"},
-                "idAccion4":{"httpStatus": 200, "mockFile": "negocios/negocios_descanzar_200.json"},
-                "idAccion5":{"httpStatus": 200, "mockFile": "negocios/negocios_diversion_200.json"}
+                "idAccion1latitud193277longitud991517distancia1estatustrue":{"httpStatus": 200, "mockFile": "negocios/negocios_comida_200.json"},
+                "idAccion2latitud193277longitud991517distancia1estatustrue":{"httpStatus": 200, "mockFile": "negocios/negocios_beber_200.json"},
+                "idAccion3latitud193277longitud991517distancia1estatustrue":{"httpStatus": 200, "mockFile": "negocios/negocios_bailar_200.json"},
+                "idAccion4latitud193277longitud991517distancia1estatustrue":{"httpStatus": 200, "mockFile": "negocios/negocios_descanzar_200.json"},
+                "idAccion5latitud193277longitud991517distancia1estatustrue":{"httpStatus": 200, "mockFile": "negocios/negocios_diversion_200.json"}
             }
       }
     }

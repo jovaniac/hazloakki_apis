@@ -1,62 +1,72 @@
 [
   {
     "idNegocio": "1",
+    "nombre": "Carnitas Cesarini",
     "descripcion": "Carnitas Cesarini",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Azalea 85 colonia Huayamilpas",
     "sitioWeb":"https://carnitascesarin.com.mx",
     "nombreCategoria":"Restaurante",
     "calificacion":"8",
     "distancia":"1.5km",
     "numeroOfertas":"3",
-    "horarioDia":"Lunes a Viernes 8am - 9pm"
+    "horarioDia":"Lunes a Viernes 8am - 9pm",
+    "urlImagenProfile":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
   },
   {
     "idNegocio": "2",
+    "nombre": "Posoles Agustin",
     "descripcion": "Posoles Agustin",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Jumil 90 colonia Peligrosin",
     "sitioWeb":"https://posolesagustin.com.mx",
     "nombreCategoria":"Restaurante",
     "calificacion":"9",
     "distancia":"1.9km",
     "numeroOfertas":"9",
-    "horarioDia":"Lunes a Viernes 8am - 9pm"
+    "horarioDia":"Lunes a Viernes 8am - 9pm",
+    "urlImagenProfile":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
   },
   {
     "idNegocio": "3",
+    "nombre": "Desayunos Magui",
     "descripcion": "Desayunos Magui",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Insurgentes Sur 343, colonia la joya",
     "sitioWeb":"https://desayunomagui.com.mx",
     "nombreCategoria":"Desayunos",
     "calificacion":"10",
     "distancia":"3km",
     "numeroOfertas":"15",
-    "horarioDia":"Lunes a Viernes 7am - 3pm"
+    "horarioDia":"Lunes a Viernes 7am - 3pm",
+    "urlImagenProfile":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
   },
   {
     "idNegocio": "4",
+    "nombre": "Tacos los parados",
     "descripcion": "Tacos los parados",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "San fernando 45, colonia la joya",
     "sitioWeb":"https://losparados.com.mx",
     "nombreCategoria":"Restaurante",
     "calificacion":"10",
     "distancia":"5km",
     "numeroOfertas":"25",
-    "horarioDia":"Lunes a Viernes 6pm - 2am"
+    "horarioDia":"Lunes a Viernes 6pm - 2am",
+    "urlImagenProfile":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
   },
   {
     "idNegocio": "5",
+    "nombre": "Mariscos Petrona",
     "descripcion": "Mariscos Petrona",
-    "estatus": "Activo",
+    "estatus": "true",
     "domicilio": "Acoxpa 53, Colonia Division del norte",
     "sitioWeb":"https://marisquitospetrona.com.mx",
     "nombreCategoria":"Marisqueria",
     "calificacion":"9",
     "distancia":"10km",
     "numeroOfertas":"7",
-    "horarioDia":"Lunes a Viernes 2pm - 6pm"
+    "horarioDia":"Lunes a Viernes 2pm - 6pm",
+    "urlImagenProfile":"https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_640.jpg"
   }
 ]
